@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import {useRoute} from '@react-navigation/native';
+import {useNavigation, useRoute} from '@react-navigation/native';
 
 const OrderTrack = () => {
   // Safe destructuring with defaults
@@ -154,7 +154,7 @@ const OrderTrack = () => {
       </View>
     );
   };
-
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       {renderStatusCard()}
@@ -182,7 +182,8 @@ const OrderTrack = () => {
       />
 
       {status !== 'Canceled' && (
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() =>
+          navigation.navigate('HelpCenter')}>
           <Text style={styles.supportImg}>Help Center...</Text>
         </TouchableOpacity>
       )}
