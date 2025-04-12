@@ -1,0 +1,9 @@
+﻿Id,Name,Description,ImpactArea,ImpactAreaScore,ProbabilityScore,RiskScore,AssignTo,Status,TimeStamp,Priority,ActionPlan,ProjectCharterId
+1411,Risk,Risk,Risk,1,2,2,NULL,1,NULL,3,Action,1645
+1412,test,test,test,3,3,9,NULL,2,NULL,2,test,1646
+2412,Resistance to change,Resistance to change,Business,3,3,9,NULL,2,NULL,2,To observe,2646
+2413,Resistance to Change,Resistance to Change,Business,3,3,9,NULL,2,NULL,2,Review,2647
+2414,الميزانية غير المحددة,Financial Risk,Business,3,2,6,NULL,2,NULL,2,Observed,2648
+2415,Department Resistance,New Risk,Technical,3,3,9,NULL,2,NULL,2,Observed,2649
+2416,عدم توفر ميزانية,خطر مادي,نطاق التنفيذ,4,3,12,NULL,1,NULL,3,قيد الدراسة,2650
+2417,عطل تقني,عطل يؤثر على سير العمل,لوحات المعلومات,3,3,9,NULL,2,NULL,2,قيد الدراسة,2651
