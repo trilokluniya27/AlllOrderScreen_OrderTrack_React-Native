@@ -1,0 +1,194 @@
+ProgramProjectUI2 = 
+"
+<style>
+body {
+  font-family: Segoe UI, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.title {
+  text-align: center;
+  color: #7c0026;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.card {
+  text-align: center;
+  position: relative;
+}
+.circle-container {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-inner {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project517 .circle-inner,
+.project524 .circle-inner,
+.project520 .circle-inner {
+  background-color: #d2b77f;
+}
+.project516 .circle-inner {
+  background-color: #28b9cc;
+}
+.program .circle-inner {
+  background-color: #e54242;
+}
+
+/* NEW BOX DESIGN */
+.box-wrapper {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;width:200px;
+}
+.box-label {
+  background-color: #800000;
+  color: white;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-family: Segoe UI, sans-serif;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.box-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #800000;
+}
+
+/* Popup */
+.popup {
+  margin-top: 10px;
+  background: white;
+  padding: 12px;
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+.popup-label {
+  background-color: #800000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 80px;
+  margin-top: 15px;
+}
+.bar {
+  width: 20%;
+  background-color: #d2b77f;
+  text-align: center;
+  font-size: 11px;
+  color: black;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 5px;
+}
+</style>
+
+<div class='title'>Programs and Projects</div>
+
+<div class='container'>
+  <div class='card project517'>
+    <div class='circle-container'>
+      <div class='circle-inner'>60%</div>
+    </div>
+    <div class='box-wrapper'>
+      <div class='box-label'>Project517</div>
+    </div>
+  </div>
+
+  <div class='card project516'>
+    <div class='circle-container'>
+      <div class='circle-inner'>123%</div>
+    </div>
+    <div class='box-wrapper'>
+      <div class='box-label'>Project516</div>
+    </div>
+  </div>
+
+  <div class='card program'>
+    <div class='circle-container'>
+      <div class='circle-inner'>98%</div>
+    </div>
+    <div class='box-wrapper'>
+      <div class='box-label'>Program15-15</div>
+    </div>
+    <div class='popup'>
+     <div class='box-wrapper'>
+      <div class='box-label'>Project524</div>
+    </div>
+      <div class='chart'>
+        <div class='bar' style='height:80%'>80%</div>
+        <div class='bar' style='height:33%'>33%</div>
+        <div class='bar' style='height:45%'>45%</div>
+        <div class='bar' style='height:67%'>67%</div>
+      </div>
+      <div class='labels'>
+        <div>Progress</div>
+        <div>Budget</div>
+        <div>Risk</div>
+        <div>CR</div>
+      </div>
+    </div>
+  </div>
+
+  <div class='card project524'>
+    <div class='circle-container'>
+      <div class='circle-inner'>55%</div>
+    </div>
+    <div class='box-wrapper'>
+      <div class='box-label'>Project524</div>
+    </div>
+  </div>
+
+  <div class='card project520'>
+    <div class='circle-container'>
+      <div class='circle-inner'>60%</div>
+    </div>
+    <div class='box-wrapper'>
+      <div class='box-label'>Project520</div>
+    </div>
+  </div>
+</div>
+"
